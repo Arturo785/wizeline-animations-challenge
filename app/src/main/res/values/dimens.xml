@@ -31,4 +31,5 @@
     <!-- splash_fragment -->
     <dimen name="splash_img_width">0dp</dimen>
     <dimen name="splash_img_height">0dp</dimen>
+    <dimen name="dimen_medium">16dp</dimen>
 </resources>

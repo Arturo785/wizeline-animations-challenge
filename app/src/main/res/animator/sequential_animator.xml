@@ -1,0 +1,42 @@
+<set xmlns:android="http://schemas.android.com/apk/res/android">
+    <objectAnimator
+        android:duration="800"
+        android:interpolator="@android:anim/overshoot_interpolator"
+        android:propertyName="rotationY"
+        android:startOffset="0"
+        android:valueFrom="0"
+        android:valueTo="360"
+        android:valueType="floatType" />
+    <objectAnimator
+        android:duration="@android:integer/config_mediumAnimTime"
+        android:interpolator="@android:anim/bounce_interpolator"
+        android:propertyName="scaleY"
+        android:startOffset="1000"
+        android:valueFrom="1f"
+        android:valueTo="1.5f"
+        android:valueType="floatType" />
+    <objectAnimator
+        android:duration="@android:integer/config_mediumAnimTime"
+        android:interpolator="@android:anim/bounce_interpolator"
+        android:propertyName="scaleX"
+        android:startOffset="1000"
+        android:valueFrom="1f"
+        android:valueTo="1.5f"
+        android:valueType="floatType" />
+    <objectAnimator
+        android:duration="@android:integer/config_mediumAnimTime"
+        android:interpolator="@android:anim/bounce_interpolator"
+        android:propertyName="scaleY"
+        android:startOffset="2000"
+        android:valueFrom="1.5f"
+        android:valueTo="1f"
+        android:valueType="floatType" />
+    <objectAnimator
+        android:duration="@android:integer/config_mediumAnimTime"
+        android:interpolator="@android:anim/bounce_interpolator"
+        android:propertyName="scaleX"
+        android:startOffset="2000"
+        android:valueFrom="1.5f"
+        android:valueTo="1f"
+        android:valueType="floatType" />
+</set>
